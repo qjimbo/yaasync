@@ -18,3 +18,14 @@ Yaasync is named after the planet Yaasrij featured heavily in the early demos o
 I'm hoping this will be the defacto way that people can share their discoveries and track each others movement in the game. It features auto-updating so we can keep it up to date with each new patch and release.
 
 I'm looking to the community to help with this project - thanks!
+
+# API
+GET: http://address/?action=availableactions&key=<key>
+Return CSV: syncposition,syncscreens
+
+GET: http://address/?action=syncposition&key=<key>&galaxy=<galaxy>&system=<system>&planet=<planet>&gX=<galaxy x>&gY=<galaxy y>&gZ=<galaxy z>&sX=<surface x>&sY=<surface y>&sZ=<surface z>
+URL is pinged every minute from app.
+
+GET: http://address/?action=syncscreenshot&key=<key>&screenshotid=<screenshotid>&galaxy=<galaxy>&system=<system>&planet=<planet>&gX=<galaxy x>&gY=<galaxy y>&gZ=<galaxy z>&sX=<surface x>&sY=<surface y>&sZ=<surface z>
+POST: PNG Format screenshot
+Screenshot ID: <Unix Timestamp>-<GUID>
