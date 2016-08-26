@@ -1,0 +1,9 @@
+GET: http://address/?action=availableactions&key=<key>
+Return CSV: syncposition,syncscreens
+
+GET: http://address/?action=syncposition&key=<key>&galaxy=<galaxy>&system=<system>&planet=<planet>&gX=<galaxy x>&gY=<galaxy y>&gZ=<galaxy z>&sX=<surface x>&sY=<surface y>&sZ=<surface z>
+URL is pinged every minute from app.
+
+GET: http://address/?action=syncscreenshot&key=<key>&screenshotid=<screenshotid>&galaxy=<galaxy>&system=<system>&planet=<planet>&gX=<galaxy x>&gY=<galaxy y>&gZ=<galaxy z>&sX=<surface x>&sY=<surface y>&sZ=<surface z>
+POST: PNG Format screenshot
+Screenshot ID: <Unix Timestamp>-<GUID>

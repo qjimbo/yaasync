@@ -1,0 +1,4 @@
+Thanks to Anton Jouline for this custom version of Taksi!
+
+Source: https://github.com/juce/taksi/tree/opengl-only
+Binaries: http://mapote.com/taksi/

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <screenKeyKey>N</screenKeyKey>
+  <screenKeyModifier>CTRL+ALT</screenKeyModifier>
+  <screenPath>D:\User Files\Sync\No Man's Sync\NoMansSync\NoMansSync\bin\Debug\Screenshots</screenPath>
+  <syncURLs>
+    <SyncURL>
+      <id>4de864c1-1381-41a0-b551-8a74af032bbd</id>
+      <URL>http://qjimbo.co/yaasync/api.php</URL>
+      <key />
+      <syncPosition>true</syncPosition>
+      <syncScreenshot>true</syncScreenshot>
+    </SyncURL>
+  </syncURLs>
+</Settings>
