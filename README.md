@@ -21,11 +21,15 @@ I'm looking to the community to help with this project - thanks!
 
 # API
 GET: http://address/?action=availableactions&amp;key=&lt;key&gt;
+
 Return CSV: syncposition,syncscreens
 
 GET: http://address/?action=syncposition&amp;key=&lt;key&gt;&amp;galaxy=&lt;galaxy&gt;&amp;system=&lt;system&gt;&amp;planet=&lt;planet&gt;&amp;gX=&lt;galaxy x&gt;&amp;gY=&lt;galaxy y&gt;&amp;gZ=&lt;galaxy z&gt;&amp;sX=&lt;surface x&gt;&amp;sY=&lt;surface y&gt;&amp;sZ=&lt;surface z&gt;
+
 URL is pinged every minute from app.
 
 GET: http://address/?action=syncscreenshot&amp;key=&lt;key&gt;&amp;screenshotid=&lt;screenshotid&gt;&amp;galaxy=&lt;galaxy&gt;&amp;system=&lt;system&gt;&amp;planet=&lt;planet&gt;&amp;gX=&lt;galaxy x&gt;&amp;gY=&lt;galaxy y&gt;&amp;gZ=&lt;galaxy z&gt;&amp;sX=&lt;surface x&gt;&amp;sY=&lt;surface y&gt;&amp;sZ=&lt;surface z&gt;
+
 POST: PNG Format screenshot
+
 Screenshot ID: &lt;Unix Timestamp&gt;-&lt;GUID&gt;
