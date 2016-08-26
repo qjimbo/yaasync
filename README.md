@@ -20,12 +20,12 @@ I'm hoping this will be the defacto way that people can share their discoveries 
 I'm looking to the community to help with this project - thanks!
 
 # API
-GET: http://address/?action=availableactions&key=<key>
+GET: http://address/?action=availableactions&amp;key=&lt;key&gt;
 Return CSV: syncposition,syncscreens
 
-GET: http://address/?action=syncposition&key=<key>&galaxy=<galaxy>&system=<system>&planet=<planet>&gX=<galaxy x>&gY=<galaxy y>&gZ=<galaxy z>&sX=<surface x>&sY=<surface y>&sZ=<surface z>
+GET: http://address/?action=syncposition&amp;key=&lt;key&gt;&amp;galaxy=&lt;galaxy&gt;&amp;system=&lt;system&gt;&amp;planet=&lt;planet&gt;&amp;gX=&lt;galaxy x&gt;&amp;gY=&lt;galaxy y&gt;&amp;gZ=&lt;galaxy z&gt;&amp;sX=&lt;surface x&gt;&amp;sY=&lt;surface y&gt;&amp;sZ=&lt;surface z&gt;
 URL is pinged every minute from app.
 
-GET: http://address/?action=syncscreenshot&key=<key>&screenshotid=<screenshotid>&galaxy=<galaxy>&system=<system>&planet=<planet>&gX=<galaxy x>&gY=<galaxy y>&gZ=<galaxy z>&sX=<surface x>&sY=<surface y>&sZ=<surface z>
+GET: http://address/?action=syncscreenshot&amp;key=&lt;key&gt;&amp;screenshotid=&lt;screenshotid&gt;&amp;galaxy=&lt;galaxy&gt;&amp;system=&lt;system&gt;&amp;planet=&lt;planet&gt;&amp;gX=&lt;galaxy x&gt;&amp;gY=&lt;galaxy y&gt;&amp;gZ=&lt;galaxy z&gt;&amp;sX=&lt;surface x&gt;&amp;sY=&lt;surface y&gt;&amp;sZ=&lt;surface z&gt;
 POST: PNG Format screenshot
-Screenshot ID: <Unix Timestamp>-<GUID>
+Screenshot ID: &lt;Unix Timestamp&gt;-&lt;GUID&gt;
