@@ -3,13 +3,13 @@ Synchronization tool for No Man's Sky PC
 http://qjimbo.co/yaasync
 
 # What is complete
-* Auto updating
 * Program engine (MVC+Unity Services Code Structure)
-* Screenshot engine (needs to be updated to x64)
-* API upload and URL management.
+* OpenGL hook screenshot engine (needs to be updated to x64)
+* API pinging/screenshot-upload and API URL management.
+* Auto updating
 
 # TO-DO
-* Finding RAM Address/Pointers/Functions to load data from games
+* Finding RAM Address/Pointers/Functions to load data from the game while it is running
 * OpenGL capture needs to be updated from 32 bit to 64 bit. This is currently using juce's engine with the source available here: https://github.com/juce/taksi/tree/opengl-only
 
 # Overview
