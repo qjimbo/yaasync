@@ -8,6 +8,9 @@ http://qjimbo.co/yaasync
 * API pinging/screenshot-upload and API URL management.
 * Auto updating
 
+# Co-ordinates System in the Game
+![alt tag](readme_scanner_coordinates.png)
+
 # TO-DO
 * Finding RAM Address/Pointers/Functions to load data from the game while it is running
 * OpenGL capture needs to be updated from 32 bit to 64 bit. This is currently using juce's engine with the source available here: https://github.com/juce/taksi/tree/opengl-only
