@@ -11,6 +11,8 @@ http://qjimbo.co/yaasync
 # Co-ordinates System in the Game
 ![alt tag](readme_scanner_coordinates.png)
 
+[Savegame for above location](NMS Savegame - 0AE8-007F-0198 Kolenwa Shkarg (Blackhole).zip) - There is a blackhole in this system which will warp the ship to a random location, this is useful for location testing.
+
 # TO-DO
 * Finding RAM Address/Pointers/Functions to load data from the game while it is running
 * OpenGL capture needs to be updated from 32 bit to 64 bit. This is currently using juce's engine with the source available here: https://github.com/juce/taksi/tree/opengl-only
